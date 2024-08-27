@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #c9df3a;
+}
+
+.chess-board {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    border: 2px solid #232222;
+    width: 480px;
+    height: 480px;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+}
+
+.black {
+    background-color: #827301;
+}
+
+.white {
+    background-color: #d6d67a;
+}
